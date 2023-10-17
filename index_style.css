@@ -1,0 +1,316 @@
+/*///////////////////////////////// portfolio section /////////////////////////////////////////*/
+body {
+  background-color: #083138;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0.5em;
+  padding: 0;
+}
+main {
+  background-color: #ffffff15;
+  margin: 0 3em 1em 3em;
+  text-align: center;
+}
+header h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 100;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 4em;
+  margin: 0;
+}
+
+.top {
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+  width: 55em;
+  height: 0.08em;
+  background-color: rgba(255, 255, 255, 0.534);
+  border: 0;
+  border-radius: 10em;
+}
+nav {
+  margin-right: 3em;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 3em;
+  background-color: #ffffff15;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+main section img {
+  object-fit: fill;
+  width: 26vw;
+  border-radius: 0.3em;
+  margin-left: 10em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-left: solid rgba(255, 255, 255, 0.274) 0.07em;
+  border-bottom: solid rgba(255, 255, 255, 0.274) 0.07em;
+}
+li {
+  padding-right: 5em;
+}
+li a {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: rgba(253, 253, 253, 0.568);
+  color: rgb(0, 0, 0);
+  font-size: small;
+  border-radius: 0.3em;
+  padding: 0 0.3em;
+}
+li a:hover {
+  text-decoration: underline;
+  background-color: rgba(0, 0, 0, 0.568);
+  color: white;
+}
+main article .description a {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: rgba(253, 253, 253, 0.568);
+  color: rgb(0, 0, 0);
+  font-size: small;
+  border-radius: 0.3em;
+  padding-left: 40%;
+}
+main article .description a:hover {
+  text-decoration: underline;
+  background-color: rgba(0, 0, 0, 0.568);
+  color: white;
+}
+nav ul {
+  margin-right: 1em;
+  margin-left: 1em;
+  margin-bottom: 0;
+  margin-top: 0em;
+}
+
+.hire_me_link {
+  margin-left: 20em;
+}
+article {
+  display: flex;
+  justify-content: space-between;
+}
+.description {
+  padding-left: 1.3em;
+  border-right: solid rgba(255, 255, 255, 0.274) 0.07em;
+  border-bottom: solid rgba(255, 255, 255, 0.274) 0.07em;
+  border-radius: 0.3em;
+  margin-right: 10em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.description h1 {
+  border-left: solid rgba(255, 255, 255, 0.74) 0.1em;
+  padding-left: 0.3em;
+  font-weight: 500;
+}
+.description h3 {
+  border-left: solid rgba(255, 255, 255, 0.74) 0.1em;
+  padding-left: 0.3em;
+  font-weight: 100;
+  font-family: "Courier New", Courier, monospace;
+}
+.description p {
+  border-left: solid rgba(255, 255, 255, 0.74) 0.1em;
+  padding-left: 0.3em;
+}
+/*////////////////////////////////////////////// section about me ////////////////////////////////////*/
+
+.about_me .my_profile .profile {
+  width: 10vw;
+  margin-right: auto;
+  margin-left: auto;
+}
+.about_me .my_profile .profile img {
+  object-fit: fill;
+  width: 100%;
+  border-radius: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.about_me .topic {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 0.3em;
+  font-weight: 100;
+  padding: 0;
+}
+.about_me .footer {
+  margin-right: auto;
+  margin-left: auto;
+  margin: 0;
+}
+.about_me .footer .icons {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  grid-gap: 1em;
+  margin: 0;
+}
+
+.about_me .seach_bar p {
+  padding: 0;
+  margin: 0;
+}
+.about_me .seach_bar input {
+  margin: 0;
+  border-radius: 0.3em;
+}
+.about_me .footer .icons .icon {
+  width: 1.5vw;
+  margin: 0 0 2em 0;
+  border-radius: 100%;
+  position: relative;
+}
+.about_me .footer .icons .icon:hover {
+  background-color: rgba(255, 255, 255, 0.432);
+  cursor: pointer;
+}
+
+.about_me .footer .icons .icon img {
+  position: relative;
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
+  border: 0.07em white solid;
+  border-radius: 100%;
+}
+.photos.bottom {
+  margin: 0 2em;
+  margin-top: 1em;
+  background-color: white;
+  height: 0.07em;
+}
+/*/////////////////////////////////////////////// services section ///////////////////////////////////*/
+.services {
+  background-color: #083138;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0, 0.5em;
+}
+.services main article section .content hr {
+  width: 3em;
+  height: 0.06em;
+  background-color: blue;
+  margin-top: 0;
+  margin-bottom: 0;
+  border: 0;
+}
+
+.services article {
+  display: flex;
+  justify-content: space-between;
+  margin: 3em 3em 0 3em;
+}
+.services section {
+  border: 0.08em solid rgba(0, 0, 0, 0.466);
+  background-color: rgba(245, 245, 245, 0.247);
+  border-radius: 0.7em;
+}
+.services section:hover {
+  background-color: rgba(255, 255, 255, 0.89);
+  color: black;
+}
+.services article section h3 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 1em;
+  font-weight: 900;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+}
+.services .content {
+  padding: 0 1em;
+  margin-top: 1em;
+}
+.services main article section .content img {
+  margin: 0 50%;
+  width: 5vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/*////////////////////////////////////////////////// photos section ///////////////////////////////////*/
+.photos article {
+  background-color: #ffffff15;
+  margin: 0 3em 1em 3em;
+  text-align: center;
+}
+.photos article .main_image_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  justify-content: space-between;
+  grid-gap: 2.5em;
+  margin-left: 10em;
+  margin-right: 10em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.photos article .main_image_wrapper .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.3em;
+}
+
+.photos .section section {
+  border: 0.05em solid rgb(255, 255, 255);
+  background-color: blue;
+  color: white;
+  height: 100%;
+  text-align: center;
+  border-radius: 0.3em;
+  border-bottom-right-radius: 3em;
+}
+.photos .section {
+  background-color: white;
+}
+.photos .section section hr {
+  width: 5em;
+}
+.photos .section section h1 {
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: default;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 100;
+}
+.photos.section section h3 {
+  margin-top: 3em;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  letter-spacing: 0.3em;
+  font-weight: 300;
+  padding: 0;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.photos footer {
+  text-align: center;
+  background-color: #05191d;
+  color: #8a8a8a;
+  font-size: small;
+}
